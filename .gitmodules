@@ -1,0 +1,3 @@
+[submodule "xcode/SwiftCaAP"]
+	path = xcode/SwiftCaAP
+	url = https://github.com/stuffrabbit/SwiftCoAP.git
