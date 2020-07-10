@@ -14,6 +14,9 @@
 		24F435F424B8B64900D8068F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F435F224B8B64900D8068F /* Main.storyboard */; };
 		24F4360024B8B64900D8068F /* CoREdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F435FF24B8B64900D8068F /* CoREdTests.swift */; };
 		24F4360B24B8B64900D8068F /* CoREdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4360A24B8B64900D8068F /* CoREdUITests.swift */; };
+		24F4361924B8BD2C00D8068F /* SwiftCoAP_Library in Resources */ = {isa = PBXBuildFile; fileRef = 24F4361824B8BD2C00D8068F /* SwiftCoAP_Library */; };
+		24F4361A24B8BD2C00D8068F /* SwiftCoAP_Library in Resources */ = {isa = PBXBuildFile; fileRef = 24F4361824B8BD2C00D8068F /* SwiftCoAP_Library */; };
+		24F4361B24B8BD2C00D8068F /* SwiftCoAP_Library in Resources */ = {isa = PBXBuildFile; fileRef = 24F4361824B8BD2C00D8068F /* SwiftCoAP_Library */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,7 @@
 		24F4360624B8B64900D8068F /* CoREdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoREdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F4360A24B8B64900D8068F /* CoREdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoREdUITests.swift; sourceTree = "<group>"; };
 		24F4360C24B8B64900D8068F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F4361824B8BD2C00D8068F /* SwiftCoAP_Library */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftCoAP_Library; path = ../SwiftCaAP/SwiftCoAP_Library; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		24F435DD24B8B64600D8068F = {
 			isa = PBXGroup;
 			children = (
+				24F4361824B8BD2C00D8068F /* SwiftCoAP_Library */,
 				24F435E824B8B64600D8068F /* CoREd */,
 				24F435FE24B8B64900D8068F /* CoREdTests */,
 				24F4360924B8B64900D8068F /* CoREdUITests */,
@@ -233,6 +238,7 @@
 			files = (
 				24F435F124B8B64900D8068F /* Assets.xcassets in Resources */,
 				24F435F424B8B64900D8068F /* Main.storyboard in Resources */,
+				24F4361924B8BD2C00D8068F /* SwiftCoAP_Library in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F4361A24B8BD2C00D8068F /* SwiftCoAP_Library in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F4361B24B8BD2C00D8068F /* SwiftCoAP_Library in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
